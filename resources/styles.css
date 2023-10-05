@@ -122,3 +122,118 @@
 }
 
 /* End of News/An */
+
+/*Course and Admission */
+
+.textca{
+    color: #fffffe;
+}
+
+.cardca{
+    background-color: #5d0000;
+}
+
+.containerca{
+    background-color: #ebac2c;
+}
+
+.textadhead{
+    color:#4f2d28;
+    text-align: center;
+}
+
+.textad{
+    color:#4f2d28;
+    text-align: center;
+}
+
+.textprog{
+    text-align: center;
+}
+.form-label {
+    margin-right: 10px; 
+  }
+
+.form-element {
+    margin-top: 10px; /
+}
+
+.btn{
+    background-color: #5d0000;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+.containerprogs {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.image-container {
+    text-align: center; 
+    margin-top: 30px; 
+    margin-bottom: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  /* Style for the image */
+  .image-container img {
+    max-width: 100%; 
+    border: 1px solid #ccc;
+  }
+
+  .overlay-button {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background-color: #5d0000; 
+    font-weight: bold;
+    color: white; 
+    padding: 20px 80px; /* Adjust button padding */
+    border: 3px;
+    cursor: default;
+  }
+
+  img {
+    width: 550px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #ccc; 
+  }
+
+/* End Course and Admission */
+
+/*Back to Top button */
+#backToTopBtn {
+    display: none; /* Hide the button by default */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    cursor: pointer;
+    padding: 20px 20px;
+    background-color: #ebab2ca3;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Style when hovering over the button */
+#backToTopBtn:hover {
+    background-color: #ebac2c;
+}
+
+#backToTopBtn::before {
+    content: "⮝"; /* Unicode up arrow character */
+    font-size: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
