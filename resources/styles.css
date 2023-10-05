@@ -3,17 +3,21 @@
     margin: 0;
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
-    font-family: Courier New, Lucida Console, Monaco;
 }
 
 .logo {
     height: 100px;
     margin-left: 50px; 
 }
-
+.Ub{
+    color: #ffffff;
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .custom-navbar {
     background-color: #5d0000;
     padding-right: 100px; 
+    margin-top: 1px;
 }
 
 .header{
@@ -29,7 +33,7 @@
   }  
 
 .card1{
-    background-color: #0000001b;
+    background-color: #0000002f;
 }
 
 .footer{
@@ -72,5 +76,49 @@
     display: none;
 }
 /* end of loader*/
-  
-/* logo hex color: #9c0e0c  #ebac2c*/
+
+/* News/An */
+.card2{
+    background-color: #ebac2c;
+}
+.card3{
+    background-color: #5d0000;
+}
+.NewsAn {
+    min-height: 100vh;
+    background-color:#5d0000;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text{
+    color: #4f2d28;
+}
+.textNa {
+    color: #ffffff;
+    text-align: left;
+    font-weight: 600; 
+}
+.textdesc{
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600; 
+}
+
+.image1, .image2 {
+    width: 350px;
+    height: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containerNa{
+    background-color: #5d0000;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* End of News/An */
