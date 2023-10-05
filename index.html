@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="resources/styles.css">
+
+    <title>University of Bauan</title>
+  </head>
+  <body>
+    <div class="loader">
+      <div class="logo">
+        <img src="resources/img/Logo.png" class="logoimg">
+      </div>
+      <div class="filling"></div>
+    </div>
+    <header class="header" id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+            <a class="navbar-brand" href="#"><img src="resources/img/Logo.png" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-link active" href="#">Home <span class="sr-only">current</span></a>
+                <a class="nav-link" href="#">News & Announcement</a>
+                <a class="nav-link" href="#">Courses & Admission</a>
+              </div>
+            </div>
+          </nav>
+          <div class="container mt-5 d-flex justify-content-center align-items-center">
+            <div class="jumbotron card1 text-light text-center">
+              <h1 class="display-2">University of Bauan</h1>
+              <p class="lead">One of the best college universities that offers different courses</p>
+            </div>
+          </div> 
+          
+          <!--loader-->
+          <script>
+            window.addEventListener('load', function () {
+                const loader = document.querySelector('.loader');
+                const filling = document.querySelector('.filling');
+                const content = document.querySelector('.content');
+        
+                // Simulate loading by animating the filling effect
+                setTimeout(() => {
+                    filling.style.width = '100%';
+                }, 100);
+        
+                // Hide the loader and show the content when loading is complete
+                setTimeout(() => {
+                    loader.style.opacity = '0';
+                    setTimeout(() => {
+                        loader.style.display = 'none';
+                        header.style.display = 'block';
+                    }, 500); // Adjust the delay as needed
+                }, 2500); // Adjust the total duration of the loader animation
+            })
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  </body>
+</html>
