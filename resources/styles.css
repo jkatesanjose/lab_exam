@@ -196,10 +196,10 @@
     background-color: #5d0000; 
     font-weight: bold;
     color: white; 
-    padding: 10px 70px; /* Adjust button padding */
+    padding: 15px 70px; /* Adjust button padding */
     border: 3px solid-transparent;
     cursor: pointer;
-  }
+}
 
 .img {
     width: 550px;
